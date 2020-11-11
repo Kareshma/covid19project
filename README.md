@@ -28,7 +28,7 @@ bash start_sandbox.sh
 echo "bash /root/start_sandbox.sh" >> /etc/rc.local
 
 ## Print the URL for accessing the Sandbox
-echo -e "##\nAccess the Sandbox at:\nhttp://$(curl -sS4 icanhazip.com):8888\n##"
+echo -e "##\nAccess the Sandbox at:\nhttp://$(curl -sS4 icanhazip.com):8080\n##"
 ```
 
 3. Access the Sandbox at the hosts public IP.
