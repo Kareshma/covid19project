@@ -3,6 +3,7 @@ Prediction of Covid 19 cases in the US
 
 
 # Setup
+Boot an Amazon Linux Instance and ssh into your instance
 ```
 ## install docker
 sudo yum update -y
