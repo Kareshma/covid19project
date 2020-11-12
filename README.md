@@ -33,3 +33,19 @@ echo -e "##\nAccess the Sandbox at:\nhttp://$(curl -sS4 icanhazip.com):8080\n##"
 ```
 
 3. Access the Sandbox at the hosts public IP.
+
+# Add MongoDB Service
+Reference: https://github.com/nikunjness/mongo-ambari
+```
+cd /var/lib/ambari-server/resources/stacks/HDP/2.3/services
+git clone https://github.com/nikunjness/mongo-ambari.git
+
+service ambari-server restart
+```
+On bottom left -> Actions -> Add service -> check MongoDB -> Next -> Next -> Next -> Deploy
+
+
+# Run the scripts
+https://gist.github.com/dshamanthreddy/cb1160230d28279f84f85d848c79f76b
+
+# Connect to Zeppelin Notebook via jdbc connector
