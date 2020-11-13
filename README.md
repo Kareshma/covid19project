@@ -48,7 +48,7 @@ On bottom left -> Actions -> Add service -> check MongoDB -> Next -> Next -> Nex
 # Run the scripts
 https://gist.github.com/dshamanthreddy/cb1160230d28279f84f85d848c79f76b
 
-# Connect to Zeppelin Notebook via jdbc connector
+# Connect to Zeppelin Notebook (use Covid19.json)
 
 # How to install Python 3.8
 https://www.liquidweb.com/kb/how-to-install-python-3-on-centos-7/
